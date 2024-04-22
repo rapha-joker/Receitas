@@ -1,0 +1,63 @@
+/* Definir a área para agrupar os painéis das receitas, usando flexbox */
+.recipe-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  /* Definir a formatação dos painéis de receitas */
+  .recipe-panel {
+    background-color:darkgray;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Definir a formatação para o nome da receita, foto do prato, lista de itens e modo de preparo */
+  .recipe-panel img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-panel h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .recipe-info {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: small;
+    font-style:initial;
+  }
+  
+  .recipe-info h4 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .recipe-info ul,
+  .recipe-info ol {
+    margin-left: 20px;
+  }
+  
+  /* Definir dimensões fixas para os painéis */
+  .recipe-panel {
+    height: 600px;
+  }
+  
+  /* Definir a barra de rolagem vertical na área principal */
+  .recipe-section {
+    max-height: 80vh;
+  }
+

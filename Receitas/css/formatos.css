@@ -1,0 +1,100 @@
+/* Definir a classe para o logotipo */
+.logo {
+    width: 400px;
+    height: 400px;
+}
+
+/* Formatação das áreas semânticas */
+header, main, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Características tipográficas globais */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+/* Modo Flex */
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  nav ul li.active a {
+    color: #fff; 
+    border-bottom: 2px solid #007bff;
+  }
+
+/* Posicionamento das áreas semânticas */
+header {
+    background-color:darkgrey;
+    height: 60px;
+}
+
+main {
+    flex-grow: 1;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+
+main .container-fluid {
+    width: 80%;
+    max-width: 800px;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    height: 25px;
+    text-align: center;
+}
+
+.header {
+nav {
+    text-align: center;
+}
+
+nav ul {
+    display:inline-flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+}
