@@ -54,6 +54,7 @@
   /* Definir dimensões fixas para os painéis */
   .recipe-panel {
     height: 600px;
+    overflow-y: auto;
   }
   
   /* Definir a barra de rolagem vertical na área principal */
